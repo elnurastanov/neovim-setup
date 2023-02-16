@@ -5,11 +5,6 @@ return require("packer").startup(function(use)
 
 	use "navarasu/onedark.nvim"
 
-	use {
-		"nvim-telescope/telescope.nvim", tag = "0.1.1",
-		requires = { { "nvim-lua/plenary.nvim" } }
-	}
-
 	use "lewis6991/gitsigns.nvim"
 
 	use {
@@ -33,4 +28,12 @@ return require("packer").startup(function(use)
 
 	use "windwp/nvim-autopairs"
 	use "windwp/nvim-ts-autotag"
+
+	use {
+		"nvim-telescope/telescope.nvim", tag = "0.1.1",
+		requires = { { "nvim-lua/plenary.nvim" } }
+	}
+
+	use "nvim-tree/nvim-tree.lua"
+	use "nvim-tree/nvim-web-devicons"
 end)
