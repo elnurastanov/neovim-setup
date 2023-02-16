@@ -6,5 +6,5 @@ if (not status2) then return end
 
 mason.setup {}
 mason_lsp.setup {
-	ensure_installed = { "sumneko_lua", "tsserver" }
+	ensure_installed = { "tsserver", "jsonls" }
 }
