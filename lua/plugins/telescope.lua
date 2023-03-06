@@ -8,7 +8,12 @@ vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
 telescope.setup {
   defaults = {
     file_ignore_patterns = {
-      "node_modules"
+      "node_modules",
+    }
+  },
+  pickers = {
+    find_files = {
+      hidden = true,
     }
   }
 }
