@@ -13,7 +13,8 @@ additional_vim_regex_highlighting = false,
 		"help",
 		"javascript",
 		"tsx",
-		"json"
+		"json",
+		"comment",
 	},
 	auto_install = true,
 	autotag = {
