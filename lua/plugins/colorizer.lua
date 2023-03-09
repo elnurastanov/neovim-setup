@@ -1,0 +1,11 @@
+local status, colorizer = pcall(require, "colorizer")
+if(not status) then return end
+
+colorizer.setup {
+	"typescript";
+	"typescriptreact";
+	"javascript";
+	"javascriptreact";
+	"html";
+	"css"
+}
