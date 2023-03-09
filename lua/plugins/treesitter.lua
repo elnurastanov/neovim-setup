@@ -15,6 +15,8 @@ additional_vim_regex_highlighting = false,
 		"tsx",
 		"json",
 		"comment",
+		"markdown",
+		"markdown_inline",
 	},
 	auto_install = true,
 	autotag = {
