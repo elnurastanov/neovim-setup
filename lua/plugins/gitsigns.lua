@@ -49,5 +49,6 @@ gitsigns.setup {
 
 	    vim.keymap.set("n", "<leader>gp", gs.preview_hunk, opts)
 	    vim.keymap.set("n", "<leader>tb", gs.toggle_current_line_blame, opts)
+	    vim.keymap.set("n", "<leader>gr", ":Gitsigns reset_hunk<CR>", opts)
     end
 }
