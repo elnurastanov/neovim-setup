@@ -14,6 +14,7 @@ return require("packer").startup(function(use)
 
 	use "williamboman/mason.nvim"
 	use "williamboman/mason-lspconfig.nvim"
+	use "jay-babu/mason-null-ls.nvim"
 	use "neovim/nvim-lspconfig"
 	use "onsails/lspkind-nvim"
 	use "hrsh7th/cmp-buffer"
@@ -38,8 +39,7 @@ return require("packer").startup(function(use)
 	use "nvim-tree/nvim-web-devicons"
 
 	use "jose-elias-alvarez/null-ls.nvim"
-	use "MunifTanjim/prettier.nvim"
-		
+
 	use "glepnir/lspsaga.nvim"
 
 	use "norcalli/nvim-colorizer.lua"
